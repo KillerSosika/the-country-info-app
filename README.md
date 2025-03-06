@@ -32,18 +32,17 @@ Node.js (рекомендується v16 або вище)
 MySQL (активний сервер)
 Менеджер пакетів npm
 
-
 1. Клонування репозиторію
 2. Налаштування змінних середовища
 Створіть файл .env у корені проекту та заповніть його наступними змінними:
 
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=your_mysql_username
-DB_PASSWORD=your_mysql_password
-DB_NAME=country_info_app
-NODE_ENV=dev//при будь-якіх зміних,окрім "production"  значення синхронізації буде true
-PORT=3000
+  DB_HOST=localhost
+  DB_PORT=3306
+  DB_USER=your_mysql_username
+  DB_PASSWORD=your_mysql_password
+  DB_NAME=country_info_app
+  NODE_ENV=dev//при будь-якіх зміних,окрім "production"  значення синхронізації буде true
+  PORT=3000
 
 3. Встановлення залежностей
 npm install --legacy-peer-deps
